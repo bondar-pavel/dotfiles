@@ -1,0 +1,18 @@
+# http://aperiodic.net/screen/commands:start
+
+# no screen blinking on bell
+vbell off
+startup_message off
+defscrollback 102400
+# hostname, timestamp, LA in status bar
+caption always "%{+b}%H | %c %d.%m.%Y | Load: %l"
+# colored window list
+hardstatus alwayslastline "%-Lw%{= BW}%50>%n%f* %t%{-}%+Lw%<"
+# F11/F12 = switch windows
+bindkey -k F1 prev
+bindkey -k F2 next
+# Launch login shells
+shell -${SHELL}
+# 256color support
+termcapinfo xterm 'Co#256:AB=\E[48;5;%dm:AF=\E[38;5;%dm'
+defbce "on"
