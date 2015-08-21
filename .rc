@@ -1,0 +1,14 @@
+export EDITOR=vim
+export BROWSER=chromium
+export PAGER='less -R -F -X -S -n -i -m'
+
+# git aliases
+alias gb='git branch'
+alias gba='git branch -av'
+alias gc='git commit -v'
+alias gd='git di'
+alias gdc='gd --cached'
+alias gdm='gd master --stat --relative'
+alias gl='git pull'
+alias gp='git push'
+alias gst='git status'
