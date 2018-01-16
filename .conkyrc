@@ -33,7 +33,7 @@ uppercase no
 cpu_avg_samples 2
 net_avg_samples 1
 override_utf8_locale yes
-use_spacer yes
+use_spacer none
 text_buffer_size 256
 
 TEXT
@@ -61,10 +61,8 @@ $membar
 ${font Arial:bold:size=10}${color Tan1}HDD ${color DarkSlateGray}${hr 2}
 $font${color DimGray} / $alignc ${fs_used /} / ${fs_size /} $alignr ${fs_free_perc /}%
 ${fs_bar /}
-/home $alignc ${fs_used /home} / ${fs_size /home} $alignr ${fs_free_perc /home}%
-${fs_bar /home}
-/media/d $alignc ${fs_used /media/d} / ${fs_size /media/d} $alignr ${fs_free_perc /media/d}%
-${fs_bar /media/d}
+/home $alignc ${fs_used /home/pavel/hdd} / ${fs_size /home/pavel/hdd} $alignr ${fs_free_perc /home/pavel/hdd}%
+${fs_bar /home/pavel/hdd}
 
 
 ${font Arial:bold:size=10}${color Tan1}TOP PROCESSES ${color DarkSlateGray}${hr 2}
