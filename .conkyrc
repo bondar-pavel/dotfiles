@@ -33,7 +33,7 @@ uppercase no
 cpu_avg_samples 2
 net_avg_samples 1
 override_utf8_locale yes
-use_spacer none
+use_spacer right
 text_buffer_size 256
 
 TEXT
@@ -49,10 +49,10 @@ Intel Pentium D $alignr${freq_g cpu0}Ghz
 Uptime $alignr${uptime}
 
 ${font Arial:bold:size=10}${color Tan1}PROCESSORS ${color DarkSlateGray}${hr 2}
-$font${color DimGray}CPU1  ${cpu cpu1}% ${cpubar cpu1}
-CPU2  ${cpu cpu2}% ${cpubar cpu2}
-CPU3  ${cpu cpu3}% ${cpubar cpu3}
-CPU4  ${cpu cpu4}% ${cpubar cpu4}
+$font${color DimGray}CPU1  ${cpu cpu1}${goto 60}% ${cpubar cpu1}
+CPU2  ${cpu cpu2}${goto 60}% ${cpubar cpu2}
+CPU3  ${cpu cpu3}${goto 60}% ${cpubar cpu3}
+CPU4  ${cpu cpu4}${goto 60}% ${cpubar cpu4}
 
 ${font Arial:bold:size=10}${color Tan1}MEMORY ${color DarkSlateGray}${hr 2}
 $font${color DimGray}MEM $alignc $mem / $memmax $alignr $memperc%
