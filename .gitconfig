@@ -28,3 +28,5 @@
 	stat = yes
 [gitreview]
 	username = pavel_bondar
+[url "git@gitlab.com:"]
+	insteadOf = https://gitlab.com/
