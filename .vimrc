@@ -11,4 +11,6 @@ Plugin 'fatih/vim-go'
 syntax on
 filetype plugin indent on
 
+Bundle 'chase/vim-ansible-yaml'
+
 "filetype plugin on
