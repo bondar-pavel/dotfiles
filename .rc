@@ -15,3 +15,5 @@ alias gdm='gd master --stat --relative'
 alias gl='git pull'
 alias gp='git push'
 alias gst='git status'
+
+alias grep='grep --color=auto'
