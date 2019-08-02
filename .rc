@@ -17,3 +17,4 @@ alias gp='git push'
 alias gst='git status'
 
 alias grep='grep --color=auto'
+alias battery='upower -i /org/freedesktop/UPower/devices/battery_BAT0'
