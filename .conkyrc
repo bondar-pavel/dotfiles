@@ -61,9 +61,6 @@ $membar
 ${font Arial:bold:size=10}${color Tan1}HDD ${color DarkSlateGray}${hr 2}
 $font${color DimGray} / $alignc ${fs_used /} / ${fs_size /} $alignr ${fs_free_perc /}%
 ${fs_bar /}
-/home $alignc ${fs_used /home/pavel/hdd} / ${fs_size /home/pavel/hdd} $alignr ${fs_free_perc /home/pavel/hdd}%
-${fs_bar /home/pavel/hdd}
-
 
 ${font Arial:bold:size=10}${color Tan1}TOP PROCESSES ${color DarkSlateGray}${hr 2}
 ${color DimGray}$font${top name 1}${alignr}${top cpu 1} %
