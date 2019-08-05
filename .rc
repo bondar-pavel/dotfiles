@@ -18,3 +18,4 @@ alias gst='git status'
 
 alias grep='grep --color=auto'
 alias battery='upower -i /org/freedesktop/UPower/devices/battery_BAT0'
+alias battery1='upower -i /org/freedesktop/UPower/devices/battery_BAT1'
