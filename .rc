@@ -4,7 +4,7 @@ export PAGER='less -R -F -X -S -n -i -m'
 export GOPATH=/go
 export PATH=$PATH:/go/bin/
 export GOROOT=$(go env GOROOT)
-export GOPRIVATE=gitlab.com/dvision
+export GOPRIVATE=gitlab.com/dvision,gitlab.com/miapago
 
 # git aliases
 alias gb='git branch'
