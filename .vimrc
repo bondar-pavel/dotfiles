@@ -3,14 +3,14 @@ set autowrite
 filetype off                   " required!
 
 " set the runtime path to include Vundle and initialize
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#rc()
+"set rtp+=~/.vim/bundle/Vundle.vim
+"call vundle#rc()
 
-Plugin 'fatih/vim-go'
+"Plugin 'fatih/vim-go'
 
 syntax on
 filetype plugin indent on
 
-Bundle 'chase/vim-ansible-yaml'
+"Bundle 'chase/vim-ansible-yaml'
 
 "filetype plugin on

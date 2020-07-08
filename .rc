@@ -2,8 +2,14 @@ export EDITOR=vim
 export BROWSER=chromium
 export PAGER='less -R -F -X -S -n -i -m'
 export GOPATH=/go
-export PATH=$PATH:/go/bin/
-export GOROOT=$(go env GOROOT)
+
+# Use home directory for GO on Mac
+if [[ "$OSTYPE" == "darwin"* ]]; then
+	export GOPATH ~/go
+fi
+
+export PATH=$PATH:$GOPATH/bin/
+# export GOROOT=$(go env GOROOT)
 export GOPRIVATE=gitlab.com/dvision,gitlab.com/miapago
 
 # git aliases
