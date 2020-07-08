@@ -5,7 +5,7 @@ export GOPATH=/go
 
 # Use home directory for GO on Mac
 if [[ "$OSTYPE" == "darwin"* ]]; then
-	export GOPATH ~/go
+	export GOPATH=~/go
 fi
 
 export PATH=$PATH:$GOPATH/bin/
