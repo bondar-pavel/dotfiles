@@ -30,3 +30,5 @@
 	username = pavel_bondar
 [url "git@gitlab.com:"]
 	insteadOf = https://gitlab.com/
+[url "git@github.com:"]
+	insteadOf = https://github.com/
