@@ -32,3 +32,8 @@
 	insteadOf = https://gitlab.com/
 [url "git@github.com:"]
 	insteadOf = https://github.com/
+[pull]
+	rebase = true
+[include]
+	# Load secrets from separate file
+	path = ./.gitsecret
