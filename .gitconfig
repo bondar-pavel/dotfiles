@@ -37,3 +37,5 @@
 [include]
 	# Load secrets from separate file
 	path = ./.gitsecret
+[http "https://gopkg.in"]
+	followRedirects = true
