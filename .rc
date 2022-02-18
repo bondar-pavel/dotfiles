@@ -25,6 +25,8 @@ alias gl='git pull'
 alias gp='git push'
 alias gst='git status'
 
+alias k='kubectl'
+
 alias grep='grep --color=auto'
 alias battery='upower -i /org/freedesktop/UPower/devices/battery_BAT0'
 alias battery1='upower -i /org/freedesktop/UPower/devices/battery_BAT1'
