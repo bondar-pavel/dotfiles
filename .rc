@@ -13,6 +13,7 @@ export PATH=$PATH:$GOPATH/bin/
 export PATH=/usr/local/go/bin/:$PATH
 # export GOROOT=$(go env GOROOT)
 export GOPRIVATE=gitlab.com/dvision,gitlab.com/miapago,github.com/hellofresh
+export DOCKER_DEFAULT_PLATFORM=linux/amd64
 
 # git aliases
 alias gb='git branch'
