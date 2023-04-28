@@ -94,8 +94,11 @@ add-zsh-hook preexec terminal_title_on_command
 alias -s avi=smplayer
 
 [[ -e ~/.profile ]] && emulate sh -c 'source ~/.profile'
+[[ -e ~/.secret ]] && emulate sh -c 'source ~/.secret'
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
 export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
+
+export PATH="$PATH:/Users/pavelbondar/.foundry/bin"
