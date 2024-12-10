@@ -36,6 +36,8 @@
 	rebase = true
 [include]
 	# Load secrets from separate file
-	path = ./.gitsecret
+	# path = ./.gitsecret
 [http "https://gopkg.in"]
 	followRedirects = true
+[init]
+	defaultBranch = main

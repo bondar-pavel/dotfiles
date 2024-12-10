@@ -102,3 +102,8 @@ export SDKMAN_DIR="$HOME/.sdkman"
 export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
 
 export PATH="$PATH:/Users/pavelbondar/.foundry/bin"
+export PATH="/opt/homebrew/opt/php@7.4/bin:$PATH"
+
+# export KUBECONFIG=/Users/pavelbondar/.kube/config:/Users/pavelbondar/.kube/eksconfig
+
+export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
