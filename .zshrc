@@ -8,7 +8,7 @@ zstyle ':completion:*' completealiases
 zstyle :compinstall filename ~/.zshrc
 
 autoload -Uz compinit
-compinit
+compinit -u
 # End of lines added by compinstall
 # Lines configured by zsh-newuser-install
 export HISTFILE=~/.histfile
